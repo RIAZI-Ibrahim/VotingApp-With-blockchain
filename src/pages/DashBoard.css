@@ -1,0 +1,36 @@
+.outer-div{
+  text-align: center;
+}
+
+.inner-div{
+    background-color: white; /* for visualization purposes */
+    margin-top: 50px;
+
+}
+.inner-div h1{
+        background: whitesmoke;
+        padding: 20px 30px 15px 30px;
+        margin: -30px -30px 30px -30px;
+        border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        color: green;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+        font: normal 30px 'Bitter', serif;
+        -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+        -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+        box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+        border: 1px solid #257C9E;
+}
+.left-inner-div{
+    position: relative;
+    left: 80px;
+    display: inline-block;
+}
+
+.right-inner-div{
+    display: inline-block;
+
+    position: relative;
+    right: -500px;
+}
